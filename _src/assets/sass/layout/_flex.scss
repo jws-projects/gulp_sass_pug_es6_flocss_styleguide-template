@@ -1,0 +1,70 @@
+// for PC
+.l-df {
+  display: flex;
+}
+.l-dif {
+  display: inline-flex;
+}
+.l-aic {
+  align-items: center;
+}
+.l-aifs {
+  align-items: flex-start;
+}
+.l-aife {
+  align-items: flex-end;
+}
+.l-jcfs {
+  justify-content: flex-start;
+}
+.l-jcsb {
+  justify-content: space-between;
+}
+.l-jcc {
+  justify-content: center;
+}
+.l-jcfe {
+  justify-content: flex-end;
+}
+.l-fdc {
+  flex-direction: column;
+}
+.l-fdr {
+  flex-direction: row;
+}
+// for SP
+@include tab {
+  .l-sp-df {
+    display: flex;
+  }
+  .l-sp-dif {
+    display: inline-flex;
+  }
+  .l-sp-aic {
+    align-items: center;
+  }
+  .l-sp-aifs {
+    align-items: flex-start;
+  }
+  .l-sp-aife {
+    align-items: flex-end;
+  }
+  .l-sp-jcfs {
+    justify-content: flex-start;
+  }
+  .l-sp-jcsb {
+    justify-content: space-between;
+  }
+  .l-sp-jcc {
+    justify-content: center;
+  }
+  .l-sp-jcfe {
+    justify-content: flex-end;
+  }
+  .l-sp-fdc {
+    flex-direction: column;
+  }
+  .l-sp-fdr {
+    flex-direction: row;
+  }
+}

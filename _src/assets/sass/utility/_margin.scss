@@ -1,0 +1,69 @@
+// margin-top
+@for $i from 0 through 20 {
+  @for $j from 0 through 20 {
+    .u-mt#{$i*5}-#{$j*5} {
+      margin-top: 5px * $i;
+    }
+  }
+}
+@include tab {
+  @for $i from 0 through 20 {
+    @for $j from 0 through 20 {
+      .u-mt#{$i*5}-#{$j*5} {
+        margin-top: 5px * $j;
+      }
+    }
+  }
+}
+// margin-bottom
+@for $i from 0 through 20 {
+  @for $j from 0 through 20 {
+    .u-mb#{$i*5}-#{$j*5} {
+      margin-bottom: 5px * $i;
+    }
+  }
+}
+@include tab{
+  @for $i from 0 through 20 {
+    @for $j from 0 through 20 {
+      .u-mb#{$i*5}-#{$j*5} {
+        margin-bottom: 5px * $j;
+      }
+    }
+  }
+}
+// margin-left
+@for $i from 0 through 20 {
+  @for $j from 0 through 20 {
+    .u-ml#{$i*5}-#{$j*5} {
+      margin-left: 5px * $i;
+    }
+  }
+}
+@include tab{
+  @for $i from 0 through 20 {
+    @for $j from 0 through 20 {
+      .u-ml#{$i*5}-#{$j*5} {
+        margin-left: 5px * $j;
+      }
+    }
+  }
+}
+// margin-right
+@for $i from 0 through 20 {
+  @for $j from 0 through 20 {
+    .u-mr#{$i*5}-#{$j*5} {
+      margin-right: 5px * $i;
+    }
+  }
+}
+@include tab{
+  @for $i from 0 through 20 {
+    @for $j from 0 through 20 {
+      .u-mr#{$i*5}-#{$j*5} {
+        margin-right: 5px * $j;
+      }
+    }
+  }
+}
+

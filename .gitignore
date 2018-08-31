@@ -1,0 +1,39 @@
+#---------------- Defalt files
+_dev/
+node_modules/
+_styleguide/*
+!_styleguide/overview.md
+!_styleguide/README.md
+#---------------- OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+#----------------  vscode files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+#---------------- DW Dreamweaver files
+_notes
+_compareTemp
+configs/
+dwsync.xml
+dw_php_codehinting.config
+*.mno
+#---------------- WordPress files
+**/wp-config.php
+**/wp-content/uploads
+**/wp-content/themes/twenty*
+**/wp-content/backup-db
+**/wp-content/backups
+**/wp-content/cache
+**/wp-content/upgrade
+**/wp-content/uploads
+**/wp-content/wp-cache-config.php
+**/wp-content/plugins/hello.php

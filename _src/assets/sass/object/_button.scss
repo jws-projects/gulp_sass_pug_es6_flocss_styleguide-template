@@ -1,0 +1,27 @@
+// Button
+//
+// ボタン要素のモジュールです。
+//
+// .o-button - デフォルト
+//
+// Markup:
+// a.o-button(href="#") ボタン
+//
+// Styleguide 1.0.0
+.o-button {
+  display: flex;
+  min-width: 200px;
+  max-height: 50px;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+  background-color: $main-color;
+  color: white;
+  font-size: $fz-m;
+  position: relative;
+  padding-right: 8px;
+  &::before {
+    @include content("../images/common/icon_arrow_right.svg",8px,10px);
+    right: 8px;
+  }
+}

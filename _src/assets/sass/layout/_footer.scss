@@ -1,0 +1,10 @@
+.l-footer {
+  background-color: $text;
+  &__content {
+    padding: 20px 0;
+    p {
+      color: $main-bg;
+      font-size: 1.2rem;
+    }
+  }
+}

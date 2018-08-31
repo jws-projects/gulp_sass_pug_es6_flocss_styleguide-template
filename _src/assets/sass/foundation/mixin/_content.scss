@@ -1,0 +1,14 @@
+@mixin content($image,$width,$height) {
+  content: '';
+  position: absolute;
+  display: block;
+  width: $width;
+  height: $height;
+  background-image: url($image);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}

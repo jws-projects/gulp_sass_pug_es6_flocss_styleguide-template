@@ -1,0 +1,38 @@
+// Card
+//
+// カード要素のモジュールです。
+//
+// .o-card
+//
+// Markup:
+// ul.l-df.l-jcsb.u-mt20-20.u-mb50-50
+//   li.o-card.l-w45p.l-df.l-aic
+//     .o-card__img.l-w30p
+//       img(src= "http://placehold.it/500x500", alt="")
+//     .o-card__text.l-w70p
+//       p.u-pb20-20.u-pt20-20 title1
+//       a.o-button(href="#" target="_blank") sass
+//   li.o-card.l-w45p.l-df.l-aic
+//     .o-card__img.l-w30p
+//       img(src= "http://placehold.it/500x500", alt="")
+//     .o-card__text.l-w70p
+//       p.u-pb20-20.u-pt20-20 title2
+//       a.o-button(href="#" target="_blank") pug
+//  
+// Styleguide 2.0.0
+.o-card {
+  border: 1px solid $main-color;
+  border-bottom-width: 2px;
+  border-radius: 5px;
+  padding: 20px;
+  &__img {
+    img {
+      max-width: 100%;
+    }
+  }
+  &__text {
+    padding-left: 20px;
+    font-size: $fz-xl;
+    padding-bottom: 50px;
+  }
+}

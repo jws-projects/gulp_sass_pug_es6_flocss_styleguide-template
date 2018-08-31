@@ -1,0 +1,47 @@
+extends ./_include/_layout
+
+block var
+  - metas = {}
+  - metas.title = 'gulp_sass_pug_es6_flocss-template'
+  - metas.description = 'description'
+  - metas.path = './'
+
+block content
+  h1.l-tac.u-mt20-20.u-mb20-20 Hello World!!
+  .l-conteiner
+    ul.l-df.l-jcsb.u-mt20-20.u-mb50-50
+      li.o-card.l-w45p.l-df.l-aic
+        .o-card__img.l-w30p
+          img(src= img+"common/sass.png", alt="")
+        .o-card__text.l-w70p
+          p.u-pb20-20.u-pt20-20 sass
+          a.o-button(href="https://sass-lang.com/" target="_blank") sass
+      li.o-card.l-w45p.l-df.l-aic
+        .o-card__img.l-w30p
+          img(src= img+"/common/pug.svg", alt="")
+        .o-card__text.l-w70p
+          p.u-pb20-20.u-pt20-20 pug
+          a.o-button(href="https://pugjs.org/api/getting-started.html" target="_blank") pug
+
+    .swiper-container.u-mb30-30
+      .swiper-wrapper
+        .swiper-slide <img src="http://placehold.jp/24/000000/ffffff/600x300.png?text=Slide 1">
+        .swiper-slide <img src="http://placehold.jp/24/ffffff/000000/600x300.png?text=Slide 2">
+        .swiper-slide <img src="http://placehold.jp/24/cccccc/ffffff/600x300.png?text=Slide 3">
+      .swiper-pagination
+      .swiper-button-prev
+      .swiper-button-next
+    
+    .swiper-container.u-mb30-30
+      .swiper-wrapper
+        .swiper-slide <img src="http://placehold.jp/24/000000/ffffff/600x300.png?text=Slide 1">
+        .swiper-slide <img src="http://placehold.jp/24/ffffff/000000/600x300.png?text=Slide 2">
+        .swiper-slide <img src="http://placehold.jp/24/cccccc/ffffff/600x300.png?text=Slide 3">
+      .swiper-pagination
+      .swiper-button-prev
+      .swiper-button-next
+
+    .tac
+      button.o-button(data-izimodal-open="#modal") モーダルオープン
+
+    <div id="modal" class="iziModal"></div>
